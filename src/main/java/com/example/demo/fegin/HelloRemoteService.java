@@ -8,5 +8,5 @@ import org.springframework.web.bind.annotation.RequestParam;
 public interface HelloRemoteService {
 	
 	@RequestMapping(value="/hello")
-	public String hello(@RequestParam(value="name") String name);
+	public String hello(@RequestParam(value="name") String name); 
 }
